@@ -1,5 +1,5 @@
 # ŠÂ‹«•Ï”‚ğİ’è
-$vagrant_dir = "C:\Users\banbo\vagrant"
+$vagrant_dir = "C:\Users\banbo\vagrant\vagrant_control"
 $box_list = Get-Content ${vagrant_dir}\openam_box.csv
 $global_status = vagrant global-status
 $my_name = $myInvocation.MyCommand.name
